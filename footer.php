@@ -1,92 +1,3 @@
-<?php
-  include "./navbar.php"
-?>
-<!-- breadcumb -->
-<section class="breadcumb" aria-label="breadcumb" style="background-image: url('img/breadcumb.jpg');">
-  <div class="container-fluid">
-   <div class="row">
-    <div class="col-12">
-      <div class="main">
-        <div class="bread">
-          <div class="img-icon">
-             <img src="img/breadcumb-icon.png" alt="#">
-          </div>
-          <div class="bread-title">CONTACT</div>
-          <div class="bread-subtitle">
-            <a href="index.php">Home</a> 
-              <span class="spacebread"></span> 
-            <span>Contact</span>
-          </div>
-        </div>
-      </div>
-    </div>
-   </div>
- </div>
-</section>
-<!-- breadcumb end -->
-
-<!-- map -->
-<section aria-label="map" class="no-bottom">
-  <div class="container-fluid">
-    <div class="row p-3-vh">
-      <div class="col-md-12">
-        <div id="map-1"></div>
-      </div>
-    </div>
-  </div>
-</section> 
-<!-- map end -->
-
-<!-- section contact -->
-      <section aria-label="contact">
-        <div class="container-fluid">
-        <div class="row p-3-vh">
-
-         <div class="col-md-6">
-            <div class="text-side">
-              <h3 class="heading">Talk with us </h3>
-              <p>Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. <br>Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
-              <div class="address">
-                  <div class="heading">Our Office</div>
-                  <div class="list">
-                    <i class="fa fa-map-marker"></i>
-                    387 S First street (SoFa Market), San Jose, 95113 
-                  </div>
-                  <div class="list">
-                    <i class="fa fa-envelope-o"></i>
-                    <a href="mailto:duaritika0330@gmail.com" target="_blank" rel="noopener noreferrer">duaritika0330@gmail.com</a>
-                  </div>
-                  <div class="list">
-                    <i class="fa fa-phone"></i>+92 423 567 7
-                  </div>
-              </div>
-            </div>
-         </div>
-          
-            <div class="col-md-6">
-                  <form id="form-contact1" class="autoheight">
-                              <div class="form-group user-name">
-                                  <input type="text" class="form-control" required id="name-contact-1" placeholder="Your Name">
-                              </div>
-
-                              <div class="form-group user-email">
-                                  <input type="email" class="form-control" required id="email-contact" placeholder="Your Email">
-                              </div>
-                          
-                              <div class="form-group user-message">
-                                  <textarea class="form-control" required id="message-contact" placeholder="Your Message"></textarea>
-                                  <div class="success" id="mail_success">Thank you. Your message has been sent</div>
-                                  <div class="error" id="mail_failed">Error, email not sent</div>
-                              </div>
-                      <button type="submit" id="send-contact-1" class="btn-contact">Send Now</button>
-                  </form>
-            </div>
-        </div>
-        </div>
-      </section>
-      <!-- section end -->
-
-<!-- footer -->
 <footer style="background-image: url('img/bgfoodicon.png');">
   <div class="container-fluid">
     <div class="row p-3-vh">
@@ -97,10 +8,10 @@
             Our Address
           </div>
           <div class="detail">
-            387 S First street (SoFa Market),<br> 
-            San Jose, 95113
+            387 S First street <br>
+            (SoFa Market), San Jose, 95113
           </div>
-          <a class="btn" href="#">View on Map</a>
+          <a class="btn" href="contact.php">View on Map</a>
         </div>
       </div>
 
@@ -140,7 +51,7 @@
             Contact Us
           </div>
           <div class="detail">
-            Email: duaritika0330@gmail.com<br>
+            Email: enquries@dbento.com<br>
             Phone: 04 987654321
           </div>
           <a class="btn mb-0" href="#">SEND MESSAGE</a>
@@ -151,7 +62,7 @@
  </div>
 </footer>
 <div class="subfooter">
-  <span>Copyright©2021 D'bento All Rights Reserved.</span>
+  <span>Copyright©2022 Desi express All Rights Reserved.</span>
 </div>
 <!-- footer end -->
 
@@ -250,7 +161,7 @@
                   <input id="wa_guest" type="text" required="" class="form-control" placeholder="Number of Guest">
                 </div>
                 <div class="col">
-                  <input id="wa_date" type="text" required="" class="form-control" placeholder="09/02/2021">
+                  <input id="wa_date" type="text" required="" class="form-control" placeholder="09/02/2022">
                 </div>
                 <div class="col">
                   <input id="wa_time" type="text" class="form-control" placeholder="Time">
@@ -283,9 +194,6 @@
   <!-- slider revolution  -->
   <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
   <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-  <!--  map google  -->
-  <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyCQ5KODzqooIP496GPLRaMAsZ4eN8Vro_U"></script> 
-  <script src="js/map-1.js"></script>
   <!-- velocity  -->
   <script  src="js/velocity.min.js"></script>
   <!-- velocity  -->
@@ -296,4 +204,5 @@
   <script src="js/plugin-form.js"></script>
   </body>
 
+<!-- Mirrored from on3-step.com/tf/dbento/dbento/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Feb 2022 09:49:26 GMT -->
 </html>
